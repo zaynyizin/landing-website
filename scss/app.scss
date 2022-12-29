@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+
+//Bootstrap Custom
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 7.5,
+  9: $spacer * 9,
+
+  
+);
+
+
+$font-family-sans-serif:poppins;
+$font-size-base:0.9;
+
+$body-bg:hsl(19, 100%, 96%);
+$body-color: hsl(19, 8%, 55%);
+
+
+$navbar-nav-link-padding-x:1.5rem;
+
+$primary :hsl(19, 64%, 54%);
+
+$btn-border-radius: 2rem;
+$btn-padding-x:1.8rem;
+$btn-padding-y:0.5rem;
+$btn-font-size: 0.8rem;
+   
+@import "../node_modules/animate.css/animate.css";
+
+
+@import "../node_modules/remixicon/fonts/remixicon.css";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Custom Css
+
+.title{
+    font-family: "Lora",serif;
+    color:hsl(19, 16%, 15%);
+}
+.sub-title{
+    font-family: "Dancing Script",cursive;
+}
+
+.nav-logo{
+    height: 1.5rem;
+}
+
+.button,.button:hover,.button:active{
+    color: white;
+}
+
+.button i{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.home-title img{
+    height: 50px;
+}
+.spacer{
+    margin-top: 50px;
+}
+
+.dish-card{
+    background-color:hsl(19, 100%, 97%);
+}
+
+.dish-card img{
+    transform: translateY(-50px);
+    transition: 0.5s;
+}
+
+.dish-card:hover img{
+    transform: translateY(-60px);
+}
+
+.input-width{
+    width: 305px;
+}
